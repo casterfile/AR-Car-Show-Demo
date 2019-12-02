@@ -1,0 +1,45 @@
+﻿<Properties StartupConfiguration="{39F736F8-895D-759A-388B-A1139831D037}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/_MyAsset/_Script/LoadCarModel.cs">
+    <Files>
+      <File FileName="Assets/_MyAsset/_Script/SlideShowController.cs" Line="1" Column="1" />
+      <File FileName="Assets/_MyAsset/_Script/LoadCarModel.cs" Line="14" Column="6" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="AR Car Show Presentation" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="_MyAsset" expanded="True">
+                <Node name="_Script" expanded="True">
+                  <Node name="LoadCarModel.cs" selected="True" />
+                </Node>
+              </Node>
+              <Node name="Editor" expanded="True">
+                <Node name="CrossPlatformInput" expanded="True" />
+              </Node>
+              <Node name="RealisticCarControllerV2" expanded="True">
+                <Node name="Standard Assets" expanded="True">
+                  <Node name="ParticleSystems" expanded="True">
+                    <Node name="Scripts" expanded="True" />
+                  </Node>
+                </Node>
+              </Node>
+              <Node name="Vuforia" expanded="True">
+                <Node name="Editor" expanded="True">
+                  <Node name="Scripts" expanded="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.AR_220Car_220Show_220Presentation PreferredExecutionTarget="d9c96a03-a865-4823-bc96-de5fd88d797a" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

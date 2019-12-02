@@ -1,0 +1,362 @@
+-debug
+-target:library
+-nowarn:0169
+-langversion:4
+-out:'Temp/Assembly-CSharp.dll'
+-unsafe
+-optimize
+-r:'Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll'
+-r:'/Applications/Unity/PlaybackEngines/iOSSupport/Variations/il2cpp/Managed/UnityEngine.dll'
+-r:'/Applications/Unity/PlaybackEngines/iOSSupport/Variations/il2cpp/Managed/UnityEngine.CoreModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/iOSSupport/Variations/il2cpp/Managed/UnityEngine.AccessibilityModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/iOSSupport/Variations/il2cpp/Managed/UnityEngine.ParticleSystemModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/iOSSupport/Variations/il2cpp/Managed/UnityEngine.PhysicsModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/iOSSupport/Variations/il2cpp/Managed/UnityEngine.VehiclesModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/iOSSupport/Variations/il2cpp/Managed/UnityEngine.ClothModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/iOSSupport/Variations/il2cpp/Managed/UnityEngine.AIModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/iOSSupport/Variations/il2cpp/Managed/UnityEngine.AnimationModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/iOSSupport/Variations/il2cpp/Managed/UnityEngine.TextRenderingModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/iOSSupport/Variations/il2cpp/Managed/UnityEngine.UIModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/iOSSupport/Variations/il2cpp/Managed/UnityEngine.TerrainPhysicsModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/iOSSupport/Variations/il2cpp/Managed/UnityEngine.IMGUIModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/iOSSupport/Variations/il2cpp/Managed/UnityEngine.UNETModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/iOSSupport/Variations/il2cpp/Managed/UnityEngine.DirectorModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/iOSSupport/Variations/il2cpp/Managed/UnityEngine.UnityAnalyticsModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/iOSSupport/Variations/il2cpp/Managed/UnityEngine.PerformanceReportingModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/iOSSupport/Variations/il2cpp/Managed/UnityEngine.UnityConnectModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/iOSSupport/Variations/il2cpp/Managed/UnityEngine.WebModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/iOSSupport/Variations/il2cpp/Managed/UnityEngine.ARModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/iOSSupport/Variations/il2cpp/Managed/UnityEngine.VRModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/iOSSupport/Variations/il2cpp/Managed/UnityEngine.UIElementsModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/iOSSupport/Variations/il2cpp/Managed/UnityEngine.StyleSheetsModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/iOSSupport/Variations/il2cpp/Managed/UnityEngine.AssetBundleModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/iOSSupport/Variations/il2cpp/Managed/UnityEngine.AudioModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/iOSSupport/Variations/il2cpp/Managed/UnityEngine.CrashReportingModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/iOSSupport/Variations/il2cpp/Managed/UnityEngine.GameCenterModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/iOSSupport/Variations/il2cpp/Managed/UnityEngine.GridModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/iOSSupport/Variations/il2cpp/Managed/UnityEngine.ImageConversionModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/iOSSupport/Variations/il2cpp/Managed/UnityEngine.InputModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/iOSSupport/Variations/il2cpp/Managed/UnityEngine.JSONSerializeModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/iOSSupport/Variations/il2cpp/Managed/UnityEngine.ParticlesLegacyModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/iOSSupport/Variations/il2cpp/Managed/UnityEngine.Physics2DModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/iOSSupport/Variations/il2cpp/Managed/UnityEngine.ScreenCaptureModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/iOSSupport/Variations/il2cpp/Managed/UnityEngine.SharedInternalsModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/iOSSupport/Variations/il2cpp/Managed/UnityEngine.SpriteMaskModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/iOSSupport/Variations/il2cpp/Managed/UnityEngine.SpriteShapeModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/iOSSupport/Variations/il2cpp/Managed/UnityEngine.TerrainModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/iOSSupport/Variations/il2cpp/Managed/UnityEngine.TilemapModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/iOSSupport/Variations/il2cpp/Managed/UnityEngine.UnityWebRequestModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/iOSSupport/Variations/il2cpp/Managed/UnityEngine.UnityWebRequestAudioModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/iOSSupport/Variations/il2cpp/Managed/UnityEngine.UnityWebRequestTextureModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/iOSSupport/Variations/il2cpp/Managed/UnityEngine.UnityWebRequestWWWModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/iOSSupport/Variations/il2cpp/Managed/UnityEngine.VideoModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/iOSSupport/Variations/il2cpp/Managed/UnityEngine.WindModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/Standalone/UnityEngine.UI.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Timeline/Runtime/UnityEngine.Timeline.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/Standalone/UnityEngine.Networking.dll'
+-r:'/Applications/Unity/PlaybackEngines/VuforiaSupport/Managed/iOS/Vuforia.UnityExtensions.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnitySpatialTracking/Runtime/UnityEngine.SpatialTracking.dll'
+-r:'/Users/tonyMac/Library/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.10/UnityEngine.StandardEvents.dll'
+-define:UNITY_5_3_OR_NEWER
+-define:UNITY_5_4_OR_NEWER
+-define:UNITY_5_5_OR_NEWER
+-define:UNITY_5_6_OR_NEWER
+-define:UNITY_2017_1_OR_NEWER
+-define:UNITY_2017_2_OR_NEWER
+-define:UNITY_2017_3_OR_NEWER
+-define:UNITY_2017_4_OR_NEWER
+-define:UNITY_2017_4_34
+-define:UNITY_2017_4
+-define:UNITY_2017
+-define:ENABLE_AUDIO
+-define:ENABLE_CACHING
+-define:ENABLE_CLOTH
+-define:ENABLE_GENERICS
+-define:ENABLE_PVR_GI
+-define:ENABLE_MICROPHONE
+-define:ENABLE_MULTIPLE_DISPLAYS
+-define:ENABLE_PHYSICS
+-define:ENABLE_SPRITERENDERER_FLIPPING
+-define:ENABLE_SPRITES
+-define:ENABLE_GRID
+-define:ENABLE_TILEMAP
+-define:ENABLE_TERRAIN
+-define:ENABLE_RAKNET
+-define:ENABLE_DIRECTOR
+-define:ENABLE_UNET
+-define:ENABLE_LZMA
+-define:ENABLE_UNITYEVENTS
+-define:ENABLE_WEBCAM
+-define:ENABLE_WWW
+-define:ENABLE_CLOUD_SERVICES_COLLAB
+-define:ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS
+-define:ENABLE_CLOUD_HUB
+-define:ENABLE_CLOUD_PROJECT_ID
+-define:ENABLE_CLOUD_SERVICES_USE_WEBREQUEST
+-define:ENABLE_CLOUD_SERVICES_UNET
+-define:ENABLE_CLOUD_SERVICES_BUILD
+-define:ENABLE_CLOUD_LICENSE
+-define:ENABLE_EDITOR_HUB
+-define:ENABLE_EDITOR_HUB_LICENSE
+-define:ENABLE_WEBSOCKET_CLIENT
+-define:ENABLE_DIRECTOR_AUDIO
+-define:ENABLE_DIRECTOR_TEXTURE
+-define:ENABLE_TIMELINE
+-define:ENABLE_EDITOR_METRICS
+-define:ENABLE_EDITOR_METRICS_CACHING
+-define:ENABLE_NATIVE_ARRAY
+-define:ENABLE_SPRITE_MASKING
+-define:INCLUDE_DYNAMIC_GI
+-define:INCLUDE_GI
+-define:ENABLE_MONO_BDWGC
+-define:PLATFORM_SUPPORTS_MONO
+-define:INCLUDE_PUBNUB
+-define:ENABLE_PLAYMODE_TESTS_RUNNER
+-define:ENABLE_VIDEO
+-define:ENABLE_RMGUI
+-define:ENABLE_PACKMAN
+-define:ENABLE_CUSTOM_RENDER_TEXTURE
+-define:ENABLE_STYLE_SHEETS
+-define:ENABLE_LOCALIZATION
+-define:ENABLE_RUNTIME_GI
+-define:ENABLE_SUBSTANCE
+-define:ENABLE_GAMECENTER
+-define:ENABLE_NETWORK
+-define:ENABLE_UNITYWEBREQUEST
+-define:ENABLE_CLOUD_SERVICES
+-define:ENABLE_CLOUD_SERVICES_ADS
+-define:ENABLE_CLOUD_SERVICES_ANALYTICS
+-define:ENABLE_CLOUD_SERVICES_PURCHASING
+-define:ENABLE_CLOUD_SERVICES_CRASH_REPORTING
+-define:ENABLE_CLOUD_SERVICES_IOS_NATIVE_CRASH_REPORTING
+-define:PLAYERCONNECTION_LISTENS_FIXED_PORT
+-define:DEBUGGER_LISTENS_FIXED_PORT
+-define:PLATFORM_SUPPORTS_ADS_ID
+-define:SUPPORT_ENVIRONMENT_VARIABLES
+-define:PLATFORM_SUPPORTS_PROFILER
+-define:PLATFORM_HAS_NO_SUPPORT_FOR_BUCKET_ALLOCATOR
+-define:STRICTCPP_NEW_DELETE_SIGNATURES
+-define:HAS_NEON_SKINNIG
+-define:UNITY_GFX_USE_PLATFORM_VSYNC
+-define:UNITY_INPUT_SIMULATE_EVENTS
+-define:PLATFORM_ALWAYS_USES_STDOUT_FOR_LOG
+-define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+-define:ENABLE_VR
+-define:ENABLE_AR
+-define:ENABLE_SPATIALTRACKING
+-define:ENABLE_UNITYADS_RUNTIME
+-define:UNITY_UNITYADS_API
+-define:PLATFORM_IOS
+-define:UNITY_IOS
+-define:PLATFORM_IPHONE
+-define:UNITY_IPHONE
+-define:UNITY_IPHONE_API
+-define:SUPPORT_MULTIPLE_DISPLAYS
+-define:ENABLE_IL2CPP
+-define:NET_2_0_SUBSET
+-define:CROSS_PLATFORM_INPUT
+-define:MOBILE_INPUT
+-define:VUFORIA_IOS_SETTINGS
+-define:ENABLE_IOS_ON_DEMAND_RESOURCES
+-define:ENABLE_IOS_APP_SLICING
+-define:UNITY_HAS_GOOGLEVR
+'Assets/_MyAsset/_Script/BackHome.cs'
+'Assets/_MyAsset/_Script/CarReset.cs'
+'Assets/_MyAsset/_Script/CarRotate.cs'
+'Assets/_MyAsset/_Script/LoadCarModel.cs'
+'Assets/_MyAsset/_Script/SlideShowController.cs'
+'Assets/MaterialUI/Examples/Scripts/07 - Inputs/Example07LengthValidation.cs'
+'Assets/MaterialUI/Examples/Scripts/07 - Inputs/Example07LetterValidation.cs'
+'Assets/MaterialUI/Examples/Scripts/08 - Sliders/Example08.cs'
+'Assets/MaterialUI/Examples/Scripts/09 - Progress Indicators/Example09.cs'
+'Assets/MaterialUI/Examples/Scripts/10 - Vector Images/Example10.cs'
+'Assets/MaterialUI/Examples/Scripts/13 - Toasts & Snackbars/Example13.cs'
+'Assets/MaterialUI/Examples/Scripts/14 - Dialogs/Example14.cs'
+'Assets/MaterialUI/Examples/Scripts/15 - Pickers/Example15.cs'
+'Assets/MaterialUI/Examples/Scripts/19 - Animation/Example19.cs'
+'Assets/MaterialUI/Scripts/Animation/AutoTween.cs'
+'Assets/MaterialUI/Scripts/Animation/EasyTween.cs'
+'Assets/MaterialUI/Scripts/Animation/Tween.cs'
+'Assets/MaterialUI/Scripts/Common/ColorCopier.cs'
+'Assets/MaterialUI/Scripts/Common/DragEventSender.cs'
+'Assets/MaterialUI/Scripts/Common/Interfaces.cs'
+'Assets/MaterialUI/Scripts/Common/MaterialUIScaler.cs'
+'Assets/MaterialUI/Scripts/Common/RectTransformSnap.cs'
+'Assets/MaterialUI/Scripts/Common/Ripples/MaterialRipple.cs'
+'Assets/MaterialUI/Scripts/Common/Ripples/Ripple.cs'
+'Assets/MaterialUI/Scripts/Common/Ripples/RippleManager.cs'
+'Assets/MaterialUI/Scripts/Common/Shadows/AnimatedShadow.cs'
+'Assets/MaterialUI/Scripts/Common/Shadows/MaterialShadow.cs'
+'Assets/MaterialUI/Scripts/Common/Shadows/ShadowGenerator.cs'
+'Assets/MaterialUI/Scripts/Common/SpriteSwapper.cs'
+'Assets/MaterialUI/Scripts/Common/ToggleBase.cs'
+'Assets/MaterialUI/Scripts/Common/VerticalScrollLayoutElement.cs'
+'Assets/MaterialUI/Scripts/Components/Buttons/MaterialButton.cs'
+'Assets/MaterialUI/Scripts/Components/Buttons/MaterialMovableFab.cs'
+'Assets/MaterialUI/Scripts/Components/Dialogs/DialogAlert.cs'
+'Assets/MaterialUI/Scripts/Components/Dialogs/DialogAnimator.cs'
+'Assets/MaterialUI/Scripts/Components/Dialogs/DialogBackground.cs'
+'Assets/MaterialUI/Scripts/Components/Dialogs/DialogCheckboxList.cs'
+'Assets/MaterialUI/Scripts/Components/Dialogs/DialogCheckboxOption.cs'
+'Assets/MaterialUI/Scripts/Components/Dialogs/DialogClickableItem.cs'
+'Assets/MaterialUI/Scripts/Components/Dialogs/DialogProgress.cs'
+'Assets/MaterialUI/Scripts/Components/Dialogs/DialogPrompt.cs'
+'Assets/MaterialUI/Scripts/Components/Dialogs/DialogRadioList.cs'
+'Assets/MaterialUI/Scripts/Components/Dialogs/DialogRadioOption.cs'
+'Assets/MaterialUI/Scripts/Components/Dialogs/DialogSections.cs'
+'Assets/MaterialUI/Scripts/Components/Dialogs/DialogSimpleList.cs'
+'Assets/MaterialUI/Scripts/Components/Dialogs/DialogSimpleOption.cs'
+'Assets/MaterialUI/Scripts/Components/Dialogs/MaterialDialog.cs'
+'Assets/MaterialUI/Scripts/Components/Dialogs/Pickers/DatePicker/DialogDatePicker.cs'
+'Assets/MaterialUI/Scripts/Components/Dialogs/Pickers/DatePicker/DialogDatePickerDayItem.cs'
+'Assets/MaterialUI/Scripts/Components/Dialogs/Pickers/DatePicker/DialogDatePickerYearItem.cs'
+'Assets/MaterialUI/Scripts/Components/Dialogs/Pickers/DatePicker/DialogDatePickerYearList.cs'
+'Assets/MaterialUI/Scripts/Components/Dialogs/Pickers/TimePicker/DialogTimePicker.cs'
+'Assets/MaterialUI/Scripts/Components/Dialogs/Pickers/TimePicker/DialogTimePickerClock.cs'
+'Assets/MaterialUI/Scripts/Components/MaterialCheckbox.cs'
+'Assets/MaterialUI/Scripts/Components/MaterialDropdown.cs'
+'Assets/MaterialUI/Scripts/Components/MaterialInputField.cs'
+'Assets/MaterialUI/Scripts/Components/MaterialNavDrawer.cs'
+'Assets/MaterialUI/Scripts/Components/MaterialSlider.cs'
+'Assets/MaterialUI/Scripts/Components/MaterialSwitch.cs'
+'Assets/MaterialUI/Scripts/Components/Menus/DropdownTrigger.cs'
+'Assets/MaterialUI/Scripts/Components/OptionData.cs'
+'Assets/MaterialUI/Scripts/Components/OverscrollConfig.cs'
+'Assets/MaterialUI/Scripts/Components/Progress/CircularProgressIndicator.cs'
+'Assets/MaterialUI/Scripts/Components/Progress/LinearProgressIndicator.cs'
+'Assets/MaterialUI/Scripts/Components/Progress/ProgressIndicator.cs'
+'Assets/MaterialUI/Scripts/Components/RadioGroups/MaterialRadio.cs'
+'Assets/MaterialUI/Scripts/Components/RadioGroups/MaterialRadioGroup.cs'
+'Assets/MaterialUI/Scripts/Components/Screens/MaterialScreen.cs'
+'Assets/MaterialUI/Scripts/Components/Screens/ScreenView.cs'
+'Assets/MaterialUI/Scripts/Components/Snackbars/Snackbar.cs'
+'Assets/MaterialUI/Scripts/Components/Snackbars/SnackbarAnimator.cs'
+'Assets/MaterialUI/Scripts/Components/Tabs/TabItem.cs'
+'Assets/MaterialUI/Scripts/Components/Tabs/TabPage.cs'
+'Assets/MaterialUI/Scripts/Components/Tabs/TabPagesScrollDetector.cs'
+'Assets/MaterialUI/Scripts/Components/Tabs/TabView.cs'
+'Assets/MaterialUI/Scripts/Components/Toasts/Toast.cs'
+'Assets/MaterialUI/Scripts/Components/Toasts/ToastAnimator.cs'
+'Assets/MaterialUI/Scripts/Components/VectorImages/ImageData.cs'
+'Assets/MaterialUI/Scripts/Components/VectorImages/MaterialIconEnum.cs'
+'Assets/MaterialUI/Scripts/Components/VectorImages/MaterialIconHelper.cs'
+'Assets/MaterialUI/Scripts/Components/VectorImages/MaterialUIIconHelper.cs'
+'Assets/MaterialUI/Scripts/Components/VectorImages/Model/Glyph.cs'
+'Assets/MaterialUI/Scripts/Components/VectorImages/Model/VectorImageData.cs'
+'Assets/MaterialUI/Scripts/Components/VectorImages/Model/VectorImageSet.cs'
+'Assets/MaterialUI/Scripts/Components/VectorImages/VectorImage.cs'
+'Assets/MaterialUI/Scripts/Components/VectorImages/VectorImageManager.cs'
+'Assets/MaterialUI/Scripts/Managers/DialogManager.cs'
+'Assets/MaterialUI/Scripts/Managers/PrefabManager.cs'
+'Assets/MaterialUI/Scripts/Managers/SnackbarManager.cs'
+'Assets/MaterialUI/Scripts/Managers/ToastManager.cs'
+'Assets/MaterialUI/Scripts/Managers/TweenManager.cs'
+'Assets/MaterialUI/Scripts/MaterialUtils/AdaptiveUIGrid.cs'
+'Assets/MaterialUI/Scripts/MaterialUtils/ContinuationManager.cs'
+'Assets/MaterialUI/Scripts/MaterialUtils/EditorCoroutine.cs'
+'Assets/MaterialUI/Scripts/MaterialUtils/EditorUpdate.cs'
+'Assets/MaterialUI/Scripts/MaterialUtils/Extensions.cs'
+'Assets/MaterialUI/Scripts/MaterialUtils/FPSCounter.cs'
+'Assets/MaterialUI/Scripts/MaterialUtils/HSBColor.cs'
+'Assets/MaterialUI/Scripts/MaterialUtils/ImageHelper.cs'
+'Assets/MaterialUI/Scripts/MaterialUtils/InputFieldValidators/TextValidatorUtils.cs'
+'Assets/MaterialUI/Scripts/MaterialUtils/InstantiationHelpers/ButtonRectInstantiationHelper.cs'
+'Assets/MaterialUI/Scripts/MaterialUtils/InstantiationHelpers/ButtonRoundInstantiationHelper.cs'
+'Assets/MaterialUI/Scripts/MaterialUtils/InstantiationHelpers/CircleProgressIndicatorInstantiationHelper.cs'
+'Assets/MaterialUI/Scripts/MaterialUtils/InstantiationHelpers/DividerInstantiationHelper.cs'
+'Assets/MaterialUI/Scripts/MaterialUtils/InstantiationHelpers/EmptyUIObjectInstantiationHelper.cs'
+'Assets/MaterialUI/Scripts/MaterialUtils/InstantiationHelpers/InputFieldInstantiationHelper.cs'
+'Assets/MaterialUI/Scripts/MaterialUtils/InstantiationHelpers/InstantiationHelper.cs'
+'Assets/MaterialUI/Scripts/MaterialUtils/InstantiationHelpers/MaterialSliderInstantiationHelper.cs'
+'Assets/MaterialUI/Scripts/MaterialUtils/InstantiationHelpers/PanelInstantiationHelper.cs'
+'Assets/MaterialUI/Scripts/MaterialUtils/InstantiationHelpers/RadioInstantiationHelper.cs'
+'Assets/MaterialUI/Scripts/MaterialUtils/InstantiationHelpers/TabViewInstantiationHelper.cs'
+'Assets/MaterialUI/Scripts/MaterialUtils/InstantiationHelpers/ToggleInstantiationHelper.cs'
+'Assets/MaterialUI/Scripts/MaterialUtils/MaterialColor.cs'
+'Assets/MaterialUI/Scripts/MaterialUtils/MaterialUIVersion.cs'
+'Assets/MaterialUI/Scripts/MaterialUtils/TextUnicode.cs'
+'Assets/MaterialUI/Scripts/MaterialUtils/TextureUtils.cs'
+'Assets/MaterialUI/Utils/LitJson/IJsonWrapper.cs'
+'Assets/MaterialUI/Utils/LitJson/JsonData.cs'
+'Assets/MaterialUI/Utils/LitJson/JsonException.cs'
+'Assets/MaterialUI/Utils/LitJson/JsonMapper.cs'
+'Assets/MaterialUI/Utils/LitJson/JsonMockWrapper.cs'
+'Assets/MaterialUI/Utils/LitJson/JsonReader.cs'
+'Assets/MaterialUI/Utils/LitJson/JsonWriter.cs'
+'Assets/MaterialUI/Utils/LitJson/Lexer.cs'
+'Assets/MaterialUI/Utils/LitJson/ParserToken.cs'
+'Assets/MaterialUI/Utils/PropertyDrawers/ObserveAttribute/ObserveAttribute.cs'
+'Assets/MaterialUI/Utils/PropertyDrawers/PopupAttribute/PopupAttribute.cs'
+'Assets/RealisticCarControllerV2/Scripts/Demo Scene Scripts/RCCCamManager.cs'
+'Assets/RealisticCarControllerV2/Scripts/Demo Scene Scripts/RCCCarChange.cs'
+'Assets/RealisticCarControllerV2/Scripts/Demo Scene Scripts/RCCCockpitCamera.cs'
+'Assets/RealisticCarControllerV2/Scripts/Demo Scene Scripts/RCCResetScene.cs'
+'Assets/RealisticCarControllerV2/Scripts/Demo Scene Scripts/RCCWheelCamera.cs'
+'Assets/RealisticCarControllerV2/Scripts/Enter-Exit/RCCEnterExitCar.cs'
+'Assets/RealisticCarControllerV2/Scripts/Enter-Exit/RCCEnterExitPlayer.cs'
+'Assets/RealisticCarControllerV2/Scripts/For NGUI/RCCNGUIController.cs'
+'Assets/RealisticCarControllerV2/Scripts/RCCAIBrakeZone.cs'
+'Assets/RealisticCarControllerV2/Scripts/RCCAIBrakeZonesContainer.cs'
+'Assets/RealisticCarControllerV2/Scripts/RCCAICarController.cs'
+'Assets/RealisticCarControllerV2/Scripts/RCCAIWaypointsContainer.cs'
+'Assets/RealisticCarControllerV2/Scripts/RCCCameraOrbit.cs'
+'Assets/RealisticCarControllerV2/Scripts/RCCCarCamera.cs'
+'Assets/RealisticCarControllerV2/Scripts/RCCCarCameraConfig.cs'
+'Assets/RealisticCarControllerV2/Scripts/RCCCarControllerV2.cs'
+'Assets/RealisticCarControllerV2/Scripts/RCCCharacterController.cs'
+'Assets/RealisticCarControllerV2/Scripts/RCCChildFixedCam.cs'
+'Assets/RealisticCarControllerV2/Scripts/RCCCreateAudioSource.cs'
+'Assets/RealisticCarControllerV2/Scripts/RCCDashboardInputs.cs'
+'Assets/RealisticCarControllerV2/Scripts/RCCMainFixedCam.cs'
+'Assets/RealisticCarControllerV2/Scripts/RCCMobileButtons.cs'
+'Assets/RealisticCarControllerV2/Scripts/RCCShadowRotConst.cs'
+'Assets/RealisticCarControllerV2/Scripts/RCCSkidmarks.cs'
+'Assets/RealisticCarControllerV2/Scripts/RCCTruckTrailer.cs'
+'Assets/RealisticCarControllerV2/Scripts/RCCUIController.cs'
+'Assets/RealisticCarControllerV2/Scripts/RCCUIDashboardButton.cs'
+'Assets/RealisticCarControllerV2/Scripts/RCCUIDashboardDisplay.cs'
+'Assets/RealisticCarControllerV2/Scripts/RCCWheelCollider.cs'
+'Assets/RealisticCarControllerV2/Scripts/TerrainSurface.cs'
+'Assets/RealisticCarControllerV2/Standard Assets/Characters/FirstPersonCharacter/Scripts/FirstPersonController.cs'
+'Assets/RealisticCarControllerV2/Standard Assets/Characters/FirstPersonCharacter/Scripts/HeadBob.cs'
+'Assets/RealisticCarControllerV2/Standard Assets/Characters/FirstPersonCharacter/Scripts/MouseLook.cs'
+'Assets/RealisticCarControllerV2/Standard Assets/Characters/FirstPersonCharacter/Scripts/RigidbodyFirstPersonController.cs'
+'Assets/RealisticCarControllerV2/Standard Assets/ParticleSystems/Scripts/AfterburnerPhysicsForce.cs'
+'Assets/RealisticCarControllerV2/Standard Assets/ParticleSystems/Scripts/ExplosionFireAndDebris.cs'
+'Assets/RealisticCarControllerV2/Standard Assets/ParticleSystems/Scripts/ExplosionPhysicsForce.cs'
+'Assets/RealisticCarControllerV2/Standard Assets/ParticleSystems/Scripts/ExtinguishableParticleSystem.cs'
+'Assets/RealisticCarControllerV2/Standard Assets/ParticleSystems/Scripts/FireLight.cs'
+'Assets/RealisticCarControllerV2/Standard Assets/ParticleSystems/Scripts/Hose.cs'
+'Assets/RealisticCarControllerV2/Standard Assets/ParticleSystems/Scripts/ParticleSystemMultiplier.cs'
+'Assets/RealisticCarControllerV2/Standard Assets/ParticleSystems/Scripts/SmokeParticles.cs'
+'Assets/RealisticCarControllerV2/Standard Assets/ParticleSystems/Scripts/WaterHoseParticles.cs'
+'Assets/RealisticCarControllerV2/Standard Assets/Utility/ActivateTrigger.cs'
+'Assets/RealisticCarControllerV2/Standard Assets/Utility/AutoMobileShaderSwitch.cs'
+'Assets/RealisticCarControllerV2/Standard Assets/Utility/AutoMoveAndRotate.cs'
+'Assets/RealisticCarControllerV2/Standard Assets/Utility/CameraRefocus.cs'
+'Assets/RealisticCarControllerV2/Standard Assets/Utility/CurveControlledBob.cs'
+'Assets/RealisticCarControllerV2/Standard Assets/Utility/DragRigidbody.cs'
+'Assets/RealisticCarControllerV2/Standard Assets/Utility/DynamicShadowSettings.cs'
+'Assets/RealisticCarControllerV2/Standard Assets/Utility/FollowTarget.cs'
+'Assets/RealisticCarControllerV2/Standard Assets/Utility/ForcedReset.cs'
+'Assets/RealisticCarControllerV2/Standard Assets/Utility/FOVKick.cs'
+'Assets/RealisticCarControllerV2/Standard Assets/Utility/FPSCounter.cs'
+'Assets/RealisticCarControllerV2/Standard Assets/Utility/LerpControlledBob.cs'
+'Assets/RealisticCarControllerV2/Standard Assets/Utility/ObjectResetter.cs'
+'Assets/RealisticCarControllerV2/Standard Assets/Utility/ParticleSystemDestroyer.cs'
+'Assets/RealisticCarControllerV2/Standard Assets/Utility/PlatformSpecificContent.cs'
+'Assets/RealisticCarControllerV2/Standard Assets/Utility/SimpleActivatorMenu.cs'
+'Assets/RealisticCarControllerV2/Standard Assets/Utility/SimpleMouseRotator.cs'
+'Assets/RealisticCarControllerV2/Standard Assets/Utility/SmoothFollow.cs'
+'Assets/RealisticCarControllerV2/Standard Assets/Utility/TimedObjectActivator.cs'
+'Assets/RealisticCarControllerV2/Standard Assets/Utility/TimedObjectDestructor.cs'
+'Assets/RealisticCarControllerV2/Standard Assets/Utility/WaypointCircuit.cs'
+'Assets/RealisticCarControllerV2/Standard Assets/Utility/WaypointProgressTracker.cs'
+'Assets/Vuforia/Scripts/DefaultInitializationErrorHandler.cs'
+'Assets/Vuforia/Scripts/DefaultTrackableEventHandler.cs'
+-r:'/Applications/Unity/Unity.app/Contents/Mono/lib/mono/unity/System.Runtime.Serialization.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Mono/lib/mono/unity/System.Xml.Linq.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Mono/lib/mono/unity/UnityScript.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Mono/lib/mono/unity/UnityScript.Lang.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Mono/lib/mono/unity/Boo.Lang.dll'
+-sdk:unity
